@@ -11,7 +11,7 @@
     "private": true,
     "license": "MIT",
     "scripts": {
-        "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME",
+        "static": "next build && next export && touch ./out/.nojekyll && echo 'tirupati-book.github.io' > ./out/CNAME",
         "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
         "build": "next build",
         "start": "next start",
